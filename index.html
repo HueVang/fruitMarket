@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script src="app2.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <title>Fruit Market Game</title>
+</head>
+
+<body>
+  <header>
+  <h1>Fruit Market Game</h1>
+  <div id="topLine"> Total Cash: $ <span id="totalCash">100</span>
+  <section id="timer">Time Left: <span id="timeLeft">300</span></section>
+</div>
+  </header>
+  <main>
+
+    <div id="messageLine"><span id="messages"></span></div>
+
+
+    <table id="fruitTable"> <!-- Table Head for Fruit Names -->
+      <thead>
+        <th>
+        Apple
+      </th>
+      <th>
+        Orange
+      </th>
+      <th>
+        Banana
+      </th>
+      <th>
+        Grape
+      </th>
+      </thead>
+
+      <tr id="Pics"> <!-- Table Row for Fruit Pictures -->
+        <td>
+          <img src="images/apple.jpg" alt="Apple" />
+        </td>
+        <td>
+          <img src="images/orange.png" alt="Orange"  />
+        </td>
+        <td>
+          <img src="images/banana.png" alt="Banana"   />
+        </td>
+        <td>
+          <img src="images/grape.jpg" alt="Grape"  />
+        </td>
+      </tr>
+
+      <tr id="buyButtons"> <!-- Table Row for Buy Buttons -->
+        <td class="apple">
+          <button>Buy!</button>
+        </td>
+        <td class="orange">
+          <button>Buy!</button>
+        </td>
+        <td class="banana">
+          <button>Buy!</button>
+        </td>
+        <td class="grape">
+          <button>Buy!</button>
+        </td>
+
+      </tr>
+      <tr id="sellButtons"> <!-- Table Row for Sell Buttons -->
+        <td class="apple">
+          <button>Sell!</button>
+        </td>
+        <td class="orange">
+          <button>Sell!</button>
+        </td>
+        <td class="banana">
+          <button>Sell!</button>
+        </td>
+        <td class="grape">
+          <button>Sell!</button>
+        </td>
+
+      </tr>
+      <tr id="currentPrices"> <!-- Table Row for Current Buy Prices -->
+        <td class="apple">
+          Current Price: $ 1.00
+        </td>
+        <td class="orange">
+          Current Price: $ 2.00
+        </td>
+        <td class="banana">
+          Current Price: $ 3.00
+        </td>
+        <td class="grape">
+          Current Price: $ 4.00
+        </td>
+
+      </tr>
+      <tr id="avgBuyPrices"> <!-- Table Row for Averge Buy Price -->
+        <td class="apple">
+          Average Buy Price: $ 0.00
+        </td>
+        <td class="orange">
+          Average Buy Price: $ 0.00
+        </td>
+        <td class="banana">
+          Average Buy Price: $ 0.00
+        </td>
+        <td class="grape">
+          Average Buy Price: $ 0.00
+        </td>
+      </tr>
+      <tr id="inventory"> <!-- Table Row for current Inventory Values -->
+        <td class="apple">
+          Total Owned: 0
+        </td>
+        <td class="orange">
+          Total Owned: 0
+        </td>
+        <td class="banana">
+          Total Owned: 0
+        </td>
+        <td class="grape">
+          Total Owned: 0
+        </td>
+      </tr>
+    </table>
+
+
+    </div>
+  </main>
+
+
+
+</body>
+
+</html>

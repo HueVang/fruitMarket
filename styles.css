@@ -1,0 +1,79 @@
+
+td, th {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+img {
+  height: auto;
+  width: 125px;
+  /*padding: 5px;*/
+}
+
+body {
+  background-color: linen;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  /*border: 1px solid black;*/
+}
+
+th {
+  font-size: 1.5em;
+}
+
+button {
+  width: 80%;
+  font-size: 1.25em;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Righteous', Arial, sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  color: seagreen;
+}
+
+h2 {
+  /*float: left;*/
+  display: inline;
+}
+
+#topLine {
+  font-size: 2.0em;
+}
+#timer {
+  display: inline;
+  margin-left: 25%;
+}
+#buyButtons button {
+  background-color: blanchedalmond;
+}
+
+#sellButtons button {
+  background-color: salmon;
+}
+#fruitTable {
+  margin: auto;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+#messageLine {
+  margin: 0px;
+  padding: 5px;
+  min-height: 2.5em;
+}
+#messages {
+  margin: 0px;
+  padding: 0px;
+  font-size: 2em;
+}
+
+.badSell {
+  background: red;
+}
